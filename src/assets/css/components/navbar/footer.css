@@ -1,0 +1,967 @@
+/*-- Contact --*/
+
+.contact {
+	background: url("../../../images/contact.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #FFF;
+}
+
+.contact h3 {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.contact h4 {
+	text-align: left;
+	color: #00B7C9;
+	margin-bottom: 20px;
+}
+
+.contact-grid-1 p {
+	font-weight: 300;
+	line-height: 30px;
+	padding-right: 20px;
+}
+
+address {
+	margin-bottom: 0;
+}
+
+.contact-grid-2 li {
+	display: block;
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.contact-grid-2 .glyphicon {
+	color: #00B7C9;
+	margin-right: 5px;
+}
+
+ul.social-icons li {
+	display: inline-block;
+}
+
+ul.social-icons li a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: url("../../../images/img-sprite.png") no-repeat 0px 0px;
+	background-size: 200px;
+}
+
+ul.social-icons li a.facebook:hover {
+	background-position: 0px -33px;
+}
+
+ul.social-icons li a.twitter {
+	background-position: -35px 0px;
+}
+
+ul.social-icons li a.twitter:hover {
+	background-position: -35px -33px;
+}
+
+ul.social-icons li a.googleplus {
+	background-position: -69px 0px;
+}
+
+ul.social-icons li a.googleplus:hover {
+	background-position: -69px -33px;
+}
+
+ul.social-icons li a.instagram {
+	background-position: -102px 0px;
+}
+
+ul.social-icons li a.instagram:hover {
+	background-position: -102px -33px;
+}
+
+ul.social-icons li a.youtube {
+	background-position: -135px 0px;
+}
+
+ul.social-icons li a.youtube:hover {
+	background-position: -135px -33px;
+}
+
+.footer-nav {
+	margin-top: 30px;
+}
+
+.footer-nav ul li {
+	display: inline-block;
+	padding: 0 25px;
+	border-right: solid 1px #00B7C9;
+	border-right-style: dashed;
+}
+
+.footer-nav ul li a {
+	color: #D6D6D6;
+}
+.footer-nav ul li a:hover{
+	color: #00B7C9;
+}
+
+.footer-logo a{
+	margin: 0;
+	color: #6E6E6E;
+}
+
+.footer-nav ul li:nth-child(1) {
+	padding-left: 5px;
+}
+
+.footer-nav ul li:nth-child(3) {
+	border-right: none;
+}
+
+/*-- //Contact --*/
+
+
+
+/*-- Copyright --*/
+
+.copyright {
+	padding: 50px 0;
+	background-color: #000;
+	text-align: center;
+}
+
+.copyright p {
+	font-size: 15px;
+	color: #FFF;
+	font-weight: 400;
+}
+
+.copyright p a {
+	color: #FFF;
+}
+
+.copyright p a:hover {
+	color: #00B7C9;
+}
+
+/*-- //Copyright --*/
+
+
+
+/*-- Go-To-Top-Button --*/
+
+#toTop {
+	z-index: 99999;
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	border: none;
+	text-indent: 100%;
+	background: url("../../../images/to-top.png") no-repeat 0px 0px;
+}
+
+/*-- //Go-To-Top-Button --*/
+
+
+
+/*-- //Index-Page-Styling --*/
+
+
+
+
+
+
+
+
+
+
+/*-- Responsive-Code --*/
+
+
+
+@media screen and (max-width:1920px) {
+	.expertise-grid-1 h2 {
+		top: 41%;
+		right: 1%;
+	}
+	.expertise-grid-3 p {
+		left: -70%;
+		top: 110px;
+		padding: 60px 20px 60px 500px;
+	}
+}
+
+@media screen and (max-width:1680px) {
+	.expertise-grid-1 h2 {
+		top: 39%;
+	}
+	.expertise-grid-3 p {
+		top: 65px;
+		padding: 60px 20px 60px 450px;
+	}
+}
+
+@media screen and (max-width:1600px) {
+	.expertise-grid-1 h2 {
+		top: 40%;
+		right: 2%;
+	}
+	.expertise-grid-3 p {
+		top: 39px;
+		padding: 60px 20px 60px 450px;
+	}
+}
+
+@media screen and (max-width:1440px) {
+	.layer h3 {
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+		font-size: 60px;
+	}
+  	figure.effect-hera figcaption::before {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 150px;
+		height: 150px;
+		border: 2px solid #fff;
+		content: '';
+	}
+	.expertise-grid-3 p {
+		top: 15px;
+		padding: 60px 20px 60px 395px;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 42px;
+	}
+}
+
+@media screen and (max-width:1366px) {
+	.navbar-default .navbar-brand {
+		font-size: 43px;
+	}
+	.layer h3 {
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+		font-size:55px;
+	}
+	.layer p {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		font-size: 18px;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: -80%;
+		top: 23px;
+		border: 5px solid #000;
+		padding: 40px 20px 51px 398px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 38%;
+		right: 2%;
+		width: 30%;
+		text-align: left;
+		font-size: 40px;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 36px;
+	}
+	.about, .mission, .expertise, .portfolio, .feedback, .team, .newsletter, .news, .contact {
+		padding: 80px 0;
+	}
+	.news h4 {
+		font-size: 22px;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width:1280px) {
+	.expertise-grid-3 p {
+		position: absolute;
+		left: -96%;
+		top: 23px;
+		border: 5px solid #000;
+		padding: 30px 20px 41px 398px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.layer h3 {
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+		font-size: 45px;
+	}
+	.layer p {
+		position: absolute;
+		top: 53%;
+		left: 0;
+		right: 0;
+		font-size: 16px;
+	}
+	.about-grid-2 h1 {
+		text-align: left;
+		margin: 30px 0 20px;
+	}
+	figure.effect-hera figcaption::before {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 110px;
+		height: 110px;
+		border: 2px solid #fff;
+		content: '';
+	}
+	.expertise-grid-1 {
+		width:58%;
+		float: left;
+		position: relative;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 38%;
+		right: 2%;
+		width: 30%;
+		text-align: left;
+		font-size: 31px;
+	}
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 13px;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 37px;
+	}
+	.expertise-grid-2 {
+		width:42%;
+		float: left;
+		padding-right: 100px;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: -122%;
+		top: -3px;
+		border: 5px solid #000;
+		padding: 10px 20px 11px 398px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 32%;
+		right: 21%;
+		width: 30%;
+		text-align: left;
+		font-size: 28px;
+	}
+	.portfolio figcaption h3 {
+		font-size: 24px;
+		margin-top: 88px;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 32px;
+	}
+	figure.effect-hera h4 {
+		font-size: 128.75%;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.navbar-default .navbar-nav>li>a {
+		color: #FFF;
+		padding: 10px 16px;
+	}
+	.hover-effect li a {
+		font-size: 14px;
+	}
+	.about-grid-2 h1 {
+		text-align: left;
+		margin: 0px 0 10px;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 69px;
+	}
+	.about,.mission, .portfolio, .feedback, .team, .newsletter, .news, .contact,.video h3 {
+		padding:70px 0;
+	}
+	.expertise-grid-1 {
+		width: 100%;
+		float: none;
+		position: relative;
+		text-align: center;
+	}
+	.expertise-grids {
+		text-align: center;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: 0%;
+		top: -3px;
+		border: 5px solid #000;
+		padding: 2em 2em;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: 0%;
+		top: -63px;
+		border: 5px solid #000;
+		padding: 6em 2em 2em 2em;
+	}
+	.expertise-grid-2 {
+		width: 96%;
+		float: none;
+		padding-right:0px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 87%;
+		right: 23%;
+		width: 39%;
+		text-align: left;
+		font-size: 28px;
+	}
+	#expertise {
+		padding: 70px 0 235px 0;
+	}
+	.news h4 {
+		font-size: 18px;
+		margin-top: 22px;
+	}
+	.footer-nav ul li {
+		display: inline-block;
+		padding: 0 12px;
+	}
+	.copyright {
+		padding: 30px 0;
+	}
+	.about-grid-2 p {
+		line-height: 30px;
+		padding-right: 0;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.layer h3 {
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+		font-size: 38px;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 28px;
+	}
+	.expertise-grid-2 {
+		width: 92%;
+		float: none;
+		padding-right: 0px;
+	}
+	.expertise-grid-2 {
+		width: 92%;
+		float: none;
+		padding-right: 0px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 87%;
+		right: 29%;
+		width: 39%;
+		text-align: left;
+		font-size: 28px;
+	}
+	.video {
+		padding: 50px 0px 0 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 75px;
+	}
+	ul.callbacks_tabs {
+		position: absolute;
+		bottom: 15%;
+		left: 45%;
+	}
+	.team-grid {
+		padding: 0;
+		float: left;
+		width: 50%;
+	}
+	.about, .mission, .portfolio, .feedback, .team, .newsletter, .news, .contact {
+		padding: 60px 0;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.layer h3 {
+		position: absolute;
+		top: 40%;
+		left: 0;
+		right: 0;
+		font-size: 38px;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 28px;
+	}
+	.expertise-grid-2 {
+		width: 92%;
+		float: none;
+		padding-right: 0px;
+	}
+	.expertise-grid-2 {
+		width: 92%;
+		float: none;
+		padding-right: 0px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 87%;
+		right: 29%;
+		width: 39%;
+		text-align: left;
+		font-size: 28px;
+	}
+	.video {
+		padding: 50px 0px 0 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 105px;
+	}
+}
+
+@media screen and (max-width:736px) {
+	.hover-effect li {
+		list-style: none;
+		display: block;
+		margin: 0;
+	}
+	ul.nav.navbar-nav {
+		background: #00b7c9;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: none!important;
+	}
+	.navbar-toggle {
+		position: relative;
+		float: right;
+		padding: 9px 10px;
+		margin-top:0px;
+		margin-right: 15px;
+		margin-bottom: 8px;
+		background-color: transparent;
+		background-image: none;
+		border: 1px solid #fff;
+		border-radius: 0px!important;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #00b7c9;
+	}
+	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #fff;
+	}
+	.about, .mission, .portfolio, .feedback, .team, .newsletter, .news, .contact, .video h3 {
+		padding: 50px 0;
+	}
+	.about-grid-2 h1 {
+		margin-top: 30px;
+	}
+	.about-grid-2 p {
+    line-height: 25px;
+}
+	.about-grid-2 .btn {
+		margin-top: 15px;
+	}
+	.contact {
+		padding-bottom: 10px;
+	}
+	.contact-grid-1 {
+		margin-bottom: 30px;
+	}
+	.contact h4 {
+		margin-bottom: 10px;
+	}
+	.contact-grid-2, .contact-grid-3 {
+		width: 50%;
+		float: left;
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width:667px) {
+	.layer p {
+		position: absolute;
+		top: 57%;
+		left: 0;
+		right: 0;
+		font-size: 14px;
+	}
+	.layer h3 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		right: 0;
+		font-size: 32px;
+	}
+	.callbacks_tabs a:after {
+		height: 12px;
+		width: 12px;
+	}
+	ul.callbacks_tabs {
+		position: absolute;
+		bottom: 15%;
+		left: 41%;
+	}
+	.contact h4 {
+		margin: 20px 0;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 84%;
+		right: 29%;
+		width: 38%;
+		text-align: left;
+		font-size: 21px;
+	}
+	#video h3 {
+		padding: 10px 0 50px 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 90px;
+	}
+	.filtr-item.bottom {
+		margin-top: 3em;
+	}
+	.about-grid.about-grid-2 {
+		margin-top: 2em;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 30px!important;
+	}
+	.mission h4 {
+		margin-top: 9px;
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width:640px) {
+	.layer p {
+		position: absolute;
+		top: 57%;
+		left: 0;
+		right: 0;
+		font-size: 14px;
+	}
+	.layer h3 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		right: 0;
+		font-size: 32px;
+	}
+	.callbacks_tabs a:after {
+		height: 12px;
+		width: 12px;
+	}
+	ul.callbacks_tabs {
+		position: absolute;
+		bottom: 15%;
+		left: 41%;
+	}
+	.contact h4 {
+		margin: 20px 0;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 84%;
+		right: 29%;
+		width: 38%;
+		text-align: left;
+		font-size: 21px;
+	}
+	#video h3 {
+		padding: 10px 0 50px 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 90px;
+	}
+	.filtr-item.bottom {
+		margin-top: 2em;
+	}
+	.about-grid.about-grid-2 {
+		margin-top: 2em;
+	}
+	.news h3,.contact h3,.portfolio h3,.newsletter h3,.team h3  {
+		margin-bottom: 25px;
+	}
+	.mission h3 {
+		line-height: 45px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.layer h3 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		right: 0;
+		font-size: 23px;
+	}
+	.layer p {
+		position: absolute;
+		top: 57%;
+		left: 0;
+		right: 0;
+		font-size: 13px;
+		padding: 0 49px;
+	}
+	.simplefilter li, .multifilter li, .sortandshuffle li {
+		padding: 7px 7px;
+		font-size: 0.9em;
+		letter-spacing: 0px;
+		margin: 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 62px;
+	}
+	.feedback p {
+		font-size: 15px;
+		padding: 0 4px;
+	}
+	.feedback h3 {
+		margin-bottom: 21px;
+	}
+	.about, .mission, .portfolio, .feedback, .team, .newsletter, .news, .contact,#video h3 {
+		padding: 40px 0;
+	}
+	.filtr-item.bottom {
+		margin-top: 1.5em;
+	}
+	.copyright p {
+		font-size: 14px;
+	}
+	.copyright {
+		padding: 20px 0;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3 {
+		font-size: 25px;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: 7%;
+		top: -81px;
+		border: 5px solid #000;
+		padding: 6em 2em 2em 2em;
+	}
+	#expertise {
+		padding: 30px 0 296px 0;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 74%;
+		right: 29%;
+		width: 44%;
+		text-align: left;
+		font-size: 21px;
+	}
+	.team-grid {
+		padding: 0;
+		float: left;
+		width: 100%;
+	}
+	figure.effect-hera figcaption::before {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 130px;
+		height: 130px;
+		border: 2px solid #fff;
+		content: '';
+	}
+	.newsletter input.email {
+		width: 60%;
+		padding: 10px 10px;
+	}
+	.newsletter input.submit {
+		padding: 9px 50px;
+		font-size: 14px;
+	}
+	ul.simplefilter {
+		margin-bottom:1.5em;
+	}
+	figure.effect-hera h4 {
+		font-size: 106.75%;
+	}
+}
+
+@media screen and (max-width:414px) {
+	.layer h3 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		right: 0;
+		font-size: 19px;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 28px!important;
+	}
+	.navbar {
+		padding-top: 19px;
+	}
+	.expertise-grid-3 p {
+		position: absolute;
+		left: 7%;
+		top: -81px;
+		border: 5px solid #000;
+		padding: 6em 2em 2em 2em;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 74%;
+		right: 22%;
+		width: 54%;
+		text-align: left;
+		font-size: 21px;
+	}
+	#expertise {
+		padding: 30px 0 317px 0;
+	}
+	.simplefilter li, .multifilter li, .sortandshuffle li {
+		padding: 7px 7px;
+		font-size: 0.9em;
+		letter-spacing: 0px;
+		margin: 0;
+		margin-bottom: 0.5em;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 114px;
+	}
+	ul.callbacks_tabs {
+		position: absolute;
+		bottom: 15%;
+		left: 35%;
+	}
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3,.video h3  {
+		font-size: 23px;
+	}
+	#video h3 {
+		padding: 10px 0 40px 0!important;
+	}
+}
+
+@media screen and (max-width:384px) {
+	.newsletter input.submit {
+		padding: 9px 42px;
+		font-size: 14px;
+	}
+	.layer p {
+		position: absolute;
+		top: 57%;
+		left: 0;
+		right: 0;
+		font-size: 13px;
+		padding: 0 26px;
+	}
+	.about, .mission, .portfolio, .feedback, .team, .newsletter, .news, .contact, #video h3 {
+		padding: 30px 0;
+	}
+	#expertise {
+		padding: 30px 0 369px 0;
+	}
+	.portfolio figcaption h3 {
+		font-size: 22px;
+		margin-top: 105px;
+	}
+	.filtr-item.bt {
+		margin-bottom: 2em;
+	}
+	.filtr-item.bottom {
+		margin-top: 0em;
+	}
+	.about-grid-2 .btn {
+		margin-top: 19px;
+		font-size: 14px;
+	}
+	figure.effect-hera h4 {
+		font-size: 106.75%;
+	}
+}
+
+@media screen and (max-width:375px) {
+	.portfolio h3, .about-grid-2 h1, .mission h3, .feedback h3, .team h3, .newsletter h3, .news h3, .contact h3, .video h3 {
+		font-size: 20px;
+	}
+	.expertise-grid-1 h2 {
+		position: absolute;
+		top: 69%;
+		right: 15%;
+		width: 63%;
+		text-align: left;
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width:320px) {
+	.layer h3 {
+		position: absolute;
+		top: 44%;
+		left: 0;
+		right: 0;
+		font-size: 17px;
+	}
+	.layer p {
+		position: absolute;
+		top: 57%;
+		left: 0;
+		right: 0;
+		font-size: 12px;
+		padding: 0 6px;
+	}
+	ul.callbacks_tabs {
+		position: absolute;
+		bottom: 10%;
+		left: 32%;
+	}
+	.navbar-default .navbar-brand {
+		font-size: 26px!important;
+	}
+	.newsletter p {
+		font-size: 14px;
+		font-weight: 500;
+		margin-bottom: 19px;
+	}
+	.newsletter input.submit {
+		padding: 9px 20px;
+		font-size: 14px;
+	}
+}
+
+
+
+/*-- //Responsive-Code --*/

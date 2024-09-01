@@ -1,0 +1,316 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#enterprise{
+    background-color: rgb(37, 37, 37);
+}
+
+header{
+    text-align: center;
+    width: 100vw;
+    margin-top: 0px;
+    background-color: rgba(117, 117, 117, 0.1);
+    border: rgb(209, 209, 209) solid 1px;
+}
+
+a{
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+
+
+h1{
+    background-color: transparent;
+    color: rgb(235, 235, 235);
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2, h3, h4{
+    color: rgb(228, 228, 228);
+}
+
+i{
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+#func{
+    margin-left: 90px;
+}
+
+#title{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    height: 30px;
+}
+
+
+
+#main{
+    display: flex;
+    width: 100%;
+}
+
+
+aside{
+    width: 20vw;
+}
+
+aside h2{
+    clear: both;
+    font-weight: bold;
+    font-size: 17px;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 2px;
+    border-bottom: rgb(201, 201, 201) solid 1px;
+}
+
+aside ul{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+aside ul li{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #747474;
+}
+
+
+#detail{
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+#detail h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#message{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+#message h2{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#message ul{
+    margin-left: 20px;
+}
+
+#message ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    height: 10px;
+    color: #3e6791;
+}
+
+#esg-sec{
+    width: 60vw;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: rgb(209, 209, 209) solid 1px;
+    border-radius: 5px;
+}
+
+#esg-sec header{
+    width: 100%;
+}
+
+#esg-sec h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#assess-sec{
+    width: 60vw;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: rgb(209, 209, 209) solid 1px;
+    border-radius: 5px;
+}
+
+#assess-sec header{
+    width: 100%;
+}
+
+#assess-sec h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#charts{
+    display: flex;
+
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.echarts{
+    width: 100%;
+}
+
+#pie{
+    width: 45%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#esg-total{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#esg-total ul li{
+    display: flex;
+    margin-top: 40px;
+}
+
+#esg-total ul li h3{
+    font-size: 36px;
+}
+
+#esg-total ul li p{
+    padding-top: 5px;
+    font-size: 26px;
+    margin-left: 100px;
+}
+
+#coll-div{
+
+}
+
+#esg-table{
+    background-color: transparent;
+}
+
+.esg-table-btn{
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #797979;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.esg-table-btn:hover{
+    color: rgb(17, 91, 104);
+}
+
+/deep/ .el-table{
+    background-color: #2F4554;
+    border: 0px;
+}
+
+/deep/ .el-table__cell{
+    background-color: rgb(85, 85, 85);
+    color: rgb(219, 219, 219);
+}
+
+/deep/ .el-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+/deep/ .el-tag{
+    width: 60px;
+    text-align: center;
+}
+
+
+
+
+.assess-a{
+    color: rgb(4, 231, 235);
+    font-size: 15px;
+}
+
+
+
+.el-title ul li{
+    margin-top: 5px;
+}
+
+.el-title ul li a{
+    text-decoration: none;
+    color: #3e6791;
+    font-weight: bold;
+}
+
+/deep/ .el-table__cell{
+    background-color: #2F4554;
+}
+
+#buy-sec{
+    width: 60vw;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: rgb(209, 209, 209) solid 1px;
+    border-radius: 5px;
+}
+
+#buy-sec header{
+    width: 100%;
+}
+
+#buy-sec h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#buy-sec p{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#buy-sec p img{
+    width: 60vw;
+}
+
+#esg-detail{
+    text-align: center;
+}
+
+#esg-detail h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#esg-table{
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
